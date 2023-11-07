@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery_container {
+  max-width: 1200px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.elements {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 10px solid grey;
+  list-style-type: none;
+}
+
+li {
+  border: 3px solid grey;
+}
+.elements li img {
+  width: 80%;
+}
+
+.active {
+  filter: grayscale(5);
+}
+
+.big_img {
+  width: 70%;
+}
+.big_img ul {
+  display: flex;
+  justify-content: center;
+}
